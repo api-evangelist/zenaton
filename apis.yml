@@ -1,8 +1,28 @@
 aid: zenaton
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenaton.png
 name: Zenaton
-description: 'Zenaton is a company surfaced as a portfolio company of accel, point-nine and added to the
-  API Evangelist network as a stub for enrichment. Sector: apis. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zenaton was a workflow-as-code SaaS that let developers orchestrate background
+  jobs, asynchronous tasks, and long-running business processes directly in
+  application code (Node.js, Python, PHP, Ruby, Go) rather than wiring queues and
+  cron by hand. Founded in France and backed by Accel and Point Nine, it processed
+  10M+ workflow executions monthly across 100+ companies. The product is now
+  DISCONTINUED: the API and app hosts (api.zenaton.com / app.zenaton.com) no longer
+  resolve, the client SDK repositories are archived (last active ~2020), and the
+  zenaton.com domain redirects to co-founder Gilles Barbier's personal site. This
+  profile is retained as verified history — the archived first-party SDKs remain
+  published on npm, PyPI, Packagist, RubyGems, and pkg.go.dev.
 url: https://raw.githubusercontent.com/api-evangelist/zenaton/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,23 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: discontinued
+x-status-evidence: >-
+  api.zenaton.com/app.zenaton.com no longer resolve (connection refused);
+  zenaton.com + docs.zenaton.com 301 to gillesbarbier.dev; all GitHub SDK repos archived.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Apis
+- Workflow Orchestration
+- Background Jobs
+- Workflow As Code
+- Task Automation
+- Developer Tools
+- SaaS
+- Discontinued
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +57,14 @@ maintainers:
 common:
 - type: Website
   url: http://www.zenaton.com
+- type: GitHubOrganization
+  url: https://github.com/zenaton
+- type: Packages
+  url: packages/zenaton-packages.yml
+- type: SDKs
+  url: packages/zenaton-packages.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

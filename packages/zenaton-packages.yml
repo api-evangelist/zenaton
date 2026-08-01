@@ -1,0 +1,53 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/orgs/zenaton/repositories
+note: >-
+  Zenaton (workflow-as-code SaaS) is discontinued. The backing API hosts
+  (api.zenaton.com / app.zenaton.com) no longer resolve and the domain redirects
+  to the founder's personal site. These client libraries remain published on the
+  public registries but are ARCHIVED (last active ~2020) and target a service that
+  is no longer operating. Captured as verified first-party history, not a live SDK set.
+packages:
+  - language: javascript
+    registry: npm
+    name: zenaton
+    version: 0.8.0
+    url: https://www.npmjs.com/package/zenaton
+    install: npm install zenaton
+    repository: https://github.com/zenaton/zenaton-node
+    official: true
+    status: archived
+  - language: python
+    registry: pypi
+    name: zenaton
+    version: 0.4.2
+    url: https://pypi.org/project/zenaton/
+    install: pip install zenaton
+    repository: https://github.com/zenaton/zenaton-python
+    official: true
+    status: archived
+  - language: php
+    registry: packagist
+    name: zenaton/zenaton-php
+    url: https://packagist.org/packages/zenaton/zenaton-php
+    install: composer require zenaton/zenaton-php
+    repository: https://github.com/zenaton/zenaton-php
+    official: true
+    status: archived
+  - language: ruby
+    registry: rubygems
+    name: zenaton
+    version: 0.6.0
+    url: https://rubygems.org/gems/zenaton
+    install: gem install zenaton
+    repository: https://github.com/zenaton/zenaton-ruby
+    official: true
+    status: archived
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/zenaton/zenaton-go
+    url: https://pkg.go.dev/github.com/zenaton/zenaton-go
+    install: go get github.com/zenaton/zenaton-go
+    repository: https://github.com/zenaton/zenaton-go
+    official: true
+    status: archived
