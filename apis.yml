@@ -44,7 +44,7 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: discontinued
+x-status: defunct
 x-status-evidence: >-
   api.zenaton.com/app.zenaton.com no longer resolve (connection refused);
   zenaton.com + docs.zenaton.com 301 to gillesbarbier.dev; all GitHub SDK repos archived.
@@ -60,6 +60,7 @@ tags:
 - Developer Tools
 - Software-as-a-Service
 - Discontinued
+- Defunct
 tags_raw:
 - Company
 - Apis
@@ -70,6 +71,7 @@ tags_raw:
 - Developer Tools
 - SaaS
 - Discontinued
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
